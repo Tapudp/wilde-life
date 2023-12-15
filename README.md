@@ -29,7 +29,7 @@ You may also see any lint errors in the console.
 
 ## Usage
 
-- This uses animals API to fetch the list of animals at first
+- This uses [animals API](https://api-ninjas.com/api/animals) to fetch the list of animals at first
 - Utilises local storage of the client's browser.
 - Allows user to rate an animal, select certain preferences that they might like.
 
