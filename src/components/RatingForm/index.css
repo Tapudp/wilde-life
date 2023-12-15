@@ -1,0 +1,51 @@
+.rating-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .preferences-container {
+    width: inherit;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    text-wrap: wrap;
+    padding: 10px;
+    overflow-y: scroll;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .preference-label {
+    display: grid;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px;
+    width: -webkit-fill-available;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .preference-label:hover{
+    background-color: darkgrey;
+  }
+  
+  .preference-label input {
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .preference-key, .preference-value {
+    margin: 0;
+    text-wrap: wrap;
+  }
+  
+  .rating-value{
+    display: flex;
+    margin-bottom: 1rem;
+    width: -webkit-fill-available;
+    gap: 10px;
+    align-items: center;
+  }

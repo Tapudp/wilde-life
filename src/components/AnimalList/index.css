@@ -1,0 +1,42 @@
+.animal-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .animal-element {
+    padding: 1rem;
+    text-wrap: wrap;
+  }
+  
+  .selected {
+    background-color: gray;
+    color: #fff;
+  }
+  
+  .animal-element:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .left-part {
+    flex: 0 0 30%;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+  }
+  
+  .right-part {
+    flex: 1;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .all-animals {
+    height: 30rem;
+    text-align: left;
+    overflow-y: auto;
+  }
