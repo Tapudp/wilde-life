@@ -32,3 +32,7 @@ You may also see any lint errors in the console.
 - This uses animals API to fetch the list of animals at first
 - Utilises local storage of the client's browser.
 - Allows user to rate an animal, select certain preferences that they might like.
+
+### Example
+
+![Localhost iamge](image.png)
